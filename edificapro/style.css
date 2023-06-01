@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    --green: #49A65F;
+    --green-gradient-1: #60aa7884;
+    --green-gradient-2: #85b39b8b;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter';
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+/* HEADER */
+.nav-link:hover {
+    color: var(--green);
+}
+.logo__img {
+    width: 30px;
+}
+.logo {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.logo span {
+    color: var(--green);
+}
+.btn {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.navbar-nav {
+    gap: 5rem;
+}
+.btn-light,
+.btn-dark:hover {
+    border: 1px solid var(--green);
+    background-color: transparent;
+    color: var(--green);
+}
+.btn-light:hover,
+.btn-dark {
+    background-color: var(--green);
+    color: white;
+    border: 1px solid transparent;
+}
+.dropdown-toggle::after {
+    border: 0;
+    vertical-align: -0.05em;
+    margin-left: .5em;
+    content:"\203A";
+    transform: rotate(90deg);
+    font-size: 2rem;
+}
+@media screen and (width <= 1140px) {
+    .navbar-nav {
+        gap: 1rem;
+    }
+}
+@media screen and (width <= 992px) {
+    .language {
+        display: none;
+    }
+
+}
+
+/* HERO */
+.hero {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.hero__content {
+    flex: 45%;
+}
+.hero__video {
+    flex: 45%;
+    position: relative;
+}
+.hero__welcome {
+    color: var(--green);
+}
+.hero__title {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+video {
+    border-radius: 5px;
+    border: none;
+}
+.video-btn {
+    position: absolute;
+    color: white;
+    border: none;
+    font-size: 3rem;
+    line-height: 3rem;;
+    background: var(--green);
+    padding: 3rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 8px solid var(--green-gradient-1);
+    box-shadow: 0 0 0px 5px var(--green-gradient-2);
+    display: grid;
+    place-content: center;
+    z-index: 1;
+}
+.video-btn i{
+    margin-left: .5rem;
+    z-index: 1;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
