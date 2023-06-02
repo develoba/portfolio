@@ -100,7 +100,7 @@
         <section class="container about" id="about">
             <h2 class="section__title">Sobre Nosotros</h2>
 
-            <div class="about__main d-flex align-items-center">
+            <div class="about__main d-flex align-items-top">
                 <div class="about__content">
                     <div class="about__titles">
                         <button class="about__btn active" id="historyBtn">historia</button>
@@ -130,7 +130,7 @@
                 </div>
     
                 <div class="about__images">
-                    <div class="carousel slide" data-bs-ride="carousel" id="myCarousel">
+                    <div class="carousel slide d-flex flex-column gap-3" data-bs-ride="carousel" id="myCarousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="./img/about-casa.jpg" alt="casa realizada por edificapro" class="d-block w-100">
@@ -142,15 +142,16 @@
                                 <img src="./img/about-edificio.jpg" alt="edificio realizado por edificapro" class="d-block w-100">
                             </div>
                         </div>
-
-                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                        <div class="carousel-control">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
 
                 </div>

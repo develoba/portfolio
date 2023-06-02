@@ -254,3 +254,43 @@ video {
 .about__images img {
     border-radius: 10px
 }
+/* Carousel buttons */
+.carousel-control {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 3rem;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    position: static;
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(./img/arrow-left-long-solid.svg);   
+}
+.carousel-control-next-icon {
+   background-image: url(./img/arrow-right-long-solid.svg);
+}
+.carousel-control-prev:hover,
+.carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+    background-color: var(--green);
+}
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-prev:focus .carousel-control-prev-icon {
+    background-image: url(./img/arrow-left-solid.svg);
+}
+.carousel-control-next:hover .carousel-control-next-icon,
+.carousel-control-next:focus .carousel-control-next-icon {
+    background-image: url(./img/arrow-right-solid.svg);
+}
