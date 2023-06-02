@@ -400,3 +400,35 @@ section .btn {
     align-items: center;
     justify-content: space-between;
 }
+
+/* CONTACT */
+.contact {
+    margin-bottom: 10rem;
+}
+textarea {
+    height: 200px;
+}
+.form-control {
+    border-radius: 3px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--grey);
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+}
+.form-control::placeholder {
+    color: #a6a6a6;
+}
+.form-control:focus {
+    border: 1px solid var(--green);
+    background-color: transparent;
+    box-shadow: var(--shadow);
+}
+.location__links i {
+    color: var(--green);
+}
+.location__links p {
+    font-weight: 600;
+}
+.location__link {
+    font-size: 1.2rem;
+}
