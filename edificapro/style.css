@@ -403,7 +403,7 @@ section .btn {
 
 /* CONTACT */
 .contact {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 textarea {
     height: 200px;
@@ -431,4 +431,29 @@ textarea {
 }
 .location__link {
     font-size: 1.2rem;
+}
+
+/* FOOTER */
+.footer__nav {
+    background-color: black;
+} 
+
+.footer__logo {
+    color: white;
+}
+.footer__logo:hover {
+    color: white;
+}
+.footer__nav p,
+.footer__nav i {
+    color: white;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+@media screen and (width <= 425px) {
+    .footer__nav .container {
+        justify-content: center;
+        text-align: center;
+    }
 }
