@@ -358,3 +358,45 @@ section .btn {
 .projects__card:nth-of-type(3)::before {
     content: '03';
 }
+
+/* SERVICES */
+.services__main {
+    margin-bottom: 10rem;
+}
+.services__card .col .card {
+    padding: 2.5rem 2rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--grey);
+} 
+.services__card .col:nth-of-type(4) .card {
+    padding: 2.5rem 3rem;
+}
+
+
+/* OPINIONS */
+.opinions {
+    margin-bottom: 10rem;
+}
+.opinions__card .col {
+    flex-grow: 1;
+}
+.stars i {
+    color: #F0F247;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+.review-card {
+    height: 100%;
+    padding: 2.5rem 2rem;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--grey);
+}
+.review-card .card-title {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
