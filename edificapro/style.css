@@ -550,7 +550,7 @@ form .btn-dark {
         display: none;
     }
     .sidebar {
-        display: block;
+        display: flex;
     }
     .sidebar-btns {
         display: none;
@@ -592,7 +592,7 @@ form .btn-dark {
         padding-left: 0!important;
     }
     .sidebar-btns {
-        display: block;
+        display: flex;
     }
     .navbar__btns {
         display: none!important;
