@@ -81,10 +81,16 @@ p {
     transform: rotate(90deg);
     font-size: 2rem;
 }
-
-body {
-    /* margin-top: 10vh; */
+.sidebar i {
+    color: var(--green);
 }
+.offcanvas-header h5 {
+    font-size: 2rem
+}
+.sidebar {
+    display: none;
+}
+
 /* HERO */
 .hero {
     /* min-height: 90vh; */
@@ -543,6 +549,12 @@ form .btn-dark {
     .language {
         display: none;
     }
+    .sidebar {
+        display: block;
+    }
+    .sidebar-btns {
+        display: none;
+    }
     .about__btn {
         padding: 1rem 9vw;
     }
@@ -572,20 +584,35 @@ form .btn-dark {
 }
 
 @media screen and (width <= 600px) {
+    body {
+        overflow-x: hidden;
+    }
     .header__nav {
         padding-right: 0!important;
         padding-left: 0!important;
+    }
+    .sidebar-btns {
+        display: block;
+    }
+    .navbar__btns {
+        display: none!important;
     }
     .hero__cards.card-group .card {
         padding: 1.5rem 0;
     }
     .about__btn {
         padding: 1rem 3rem;
-    }.opinions__card .col:nth-of-type(2) {
+    }
+    .opinions__card .col:nth-of-type(2) {
         display: none;
     }
     footer .container {
         flex-direction: column;
+    }
+}
+@media screen and (width <= 470px) {
+    .about__btn {
+        padding: 1rem 2rem;
     }
 }
 
@@ -596,6 +623,9 @@ form .btn-dark {
     }
     .hero__title {
         font-size: 3rem;
+    }
+    .about__btn {
+        padding: 1rem .5rem;
     }
 
 }
