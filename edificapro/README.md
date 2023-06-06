@@ -1,6 +1,6 @@
 <div align="center">
     <h1>
-        <img src="" alt="icon" height = "25px">
+        <img src="./img/logo.png" alt="icon" height = "25px">
         <a href="https://spectacular-torte-2fa425.netlify.app/">Title Project</a>
     </h1>
     <h4>
