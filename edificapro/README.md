@@ -111,7 +111,7 @@ This landing page is completely responsive, and for this to be achieved, small m
 <p align="top">
     <img align="top" src="./img/desktopDesign.png" width="50%"> 
     <img align="top" src="./img/tabletPreview.png" width="20%"> 
-    <img align="top" src="./img/mobilePreview.png" width="10%">
+    <img align="top" src="./img/mobilePreview.png" width="15%">
 </p>
 
 
