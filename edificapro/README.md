@@ -108,7 +108,7 @@ Javascript was applied to start and stop the video on the main section when a cl
 
 This landing page is completely responsive, and for this to be achieved, small modifications were made for different screen sizes, going from desktop to tablet and mobile devices. 
 
-<p align="center">
+<p align="top">
     <img src="./img/desktopDesign.png" width="50%"> 
     <img src="./img/tabletPreview.png" width="20%"> 
     <img src="./img/mobilePreview.png" width="10%">
