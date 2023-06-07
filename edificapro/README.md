@@ -1,7 +1,7 @@
 <div align="center">
     <h1>
         <img src="./img/logo.png" alt="icon" height = "25px">
-        <a href="https://spectacular-torte-2fa425.netlify.app/">EdificaPro</a>
+        <a href="https://6480583268916f009432ea8f--sunny-churros-023fc3.netlify.app/">EdificaPro</a>
     </h1>
     <h4>
         <b>Project created from a design idea to practice HTML, CSS and JS</b>
@@ -111,7 +111,7 @@ This landing page is completely responsive, and for this to be achieved, small m
 <p align="top">
     <img align="top" src="./img/desktopDesign.png" width="50%"> 
     <img align="top" src="./img/tabletPreview.png" width="20%"> 
-    <img align="top" src="./img/mobilePreview.png" width="15%">
+    <img align="top" src="./img/mobilePreview.png" width="10%">
 </p>
 
 
