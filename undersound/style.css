@@ -42,6 +42,10 @@ p {
     line-height: 1.6;
     color: var(--text);
 }
+a {
+    text-decoration: none;
+    color: var(--text);
+}
 .btn {
     display: inline-block;
     padding: .5rem 1rem;
@@ -140,4 +144,8 @@ header {
     position: absolute;
     bottom: 5rem;
     right: -30rem;
+}
+.btn-see i {
+    color: var(--purple);
+    font-size: 2.3rem;
 }
