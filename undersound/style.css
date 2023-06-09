@@ -9,6 +9,8 @@
     --orange: #F76B23;
 
     --playfair: 'Playfair Display', serif;
+
+    --shadow-btn: 0 2px 15px rgba(0,0,0, .3);
 }
 
 
@@ -40,6 +42,15 @@ p {
     line-height: 1.6;
     color: var(--text);
 }
+.btn {
+    display: inline-block;
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: var(--purple);
+    color: white;
+    box-shadow: var(--shadow-btn);
+}
 
 /* HEADER AND HERO */
 header {
@@ -50,7 +61,7 @@ header {
     font-family: var(--playfair); 
     font-size: 3rem;
     font-weight: bold;
-    margin-right: 10rem;
+    margin-right: 5rem;
 }
 .navbar-nav {
     gap: 3rem;
