@@ -27,24 +27,26 @@ html {
 
 body {
     font-family: inherit;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
+
 h1, h2, h3, h4 {
     font-family: var(--playfair);
     font-weight: bold;
 }
 p {
-    line-height: 1.8;
+    line-height: 1.6;
     color: var(--text);
 }
 
 /* HEADER AND HERO */
 header {
     background-color: var(--bg-beige);
+    position: relative;
 }
 .navbar-brand {
     font-family: var(--playfair); 
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-right: 10rem;
 }
@@ -66,4 +68,19 @@ header {
 }
 .hero-title span {
     color: var(--purple);
+}
+
+.hero-img {
+    
+}
+
+.hero-img .hero-img__container:first-of-type {
+    content: '';
+    height: 300px;
+    width: 250px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 10rem;
+
 }
