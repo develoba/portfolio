@@ -45,6 +45,10 @@ p {
 a {
     text-decoration: none;
     color: var(--text);
+    transition: all .2s ease-in-out;
+}
+a:hover {
+    color: var(--purple);
 }
 .btn {
     display: inline-block;
@@ -54,6 +58,12 @@ a {
     background-color: var(--purple);
     color: white;
     box-shadow: var(--shadow-btn);
+    border: 2px solid var(--purple);
+}
+.btn:hover {
+    background-color: transparent;
+    color: var(--purple);
+    border-color: var(--purple);
 }
 
 /* HEADER AND HERO */
@@ -66,13 +76,25 @@ header {
     font-size: 3rem;
     font-weight: bold;
     margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar-brand img {
+   padding-bottom: .5rem;
+}
+.navbar-brand p {
+    color: black;
 }
 .navbar-nav {
     gap: 3rem;
-    
 }
+.nav-link:hover {
+    color: var(--purple);
+}
+
 .hero-content {
-    padding: 3.5rem 0 3rem;
+    padding: 3rem 0;
     width: 45%;
 }
 .hero-subtitle {
