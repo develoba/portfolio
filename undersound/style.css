@@ -52,7 +52,7 @@ a:hover {
 }
 .btn {
     display: inline-block;
-    padding: .5rem 1rem;
+    padding: .5rem 2rem;
     font-size: 1.3rem;
     font-weight: 600;
     background-color: var(--purple);
@@ -94,7 +94,7 @@ header {
 }
 
 .hero-content {
-    padding: 3rem 0;
+    padding: 2.5rem 0;
     width: 45%;
 }
 .hero-subtitle {
@@ -189,4 +189,22 @@ header {
 .hero-users__content p {
     margin: 0;
     font-size: 1.3rem;
+}
+
+/* INFORMATION SECTION */
+.info {
+    background-color: var(--bg-pink);
+    padding: 5rem 0;
+}
+.section-title span {
+    color: var(--purple);
+}
+.section-title {
+    font-size: 3rem;
+    margin: 0;
+}
+.info-text {
+    padding: 3rem;
+    width: 60%;
+    margin: 0 auto;
 }
