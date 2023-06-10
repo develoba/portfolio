@@ -72,7 +72,7 @@ header {
     
 }
 .hero-content {
-    padding: 6rem 0 10rem;
+    padding: 3.5rem 0 3rem;
     width: 45%;
 }
 .hero-subtitle {
@@ -85,6 +85,9 @@ header {
 }
 .hero-title span {
     color: var(--purple);
+}
+.hero-btns {
+    gap: 10rem;
 }
 
 .hero-img .hero-img__container {
@@ -148,4 +151,20 @@ header {
 .btn-see i {
     color: var(--purple);
     font-size: 2.3rem;
+}
+.hero-users__img figure {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    border: 2px solid white;
+}
+.hero-users__img figure:not(:first-of-type) {
+    margin-left: -1.5rem;
+}
+.hero-users__content p {
+    margin: 0;
+    font-size: 1.3rem;
 }
