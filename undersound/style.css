@@ -455,4 +455,23 @@ header {
     right: 0;
     bottom: 0;
 }
-.cat
+.cat-subscribe__btn-container {
+    background-color: white;
+    width: max-content;
+    margin: 0 auto;
+    box-shadow: var(--shadow-btn);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.cat-subscribe__btn {
+    box-shadow: none;
+    border-radius: 8px;
+    padding: .5rem;
+}
+.cat-subscribe__btn:nth-of-type(2) {
+    background-color: transparent;
+    color: var(--purple);
+    border-color: transparent;
+    padding: .5rem 1rem;
+}
