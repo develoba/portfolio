@@ -70,11 +70,21 @@ ul {
     color: white;
     box-shadow: var(--shadow-btn);
     border: 2px solid var(--purple);
+    width: max-content;
 }
 .btn:hover {
     background-color: transparent;
     color: var(--purple);
     border-color: var(--purple);
+}
+.btn-black {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.btn-black:hover {
+    border-color: black;
+    color: black;
 }
 
 /* HEADER AND HERO */
@@ -474,4 +484,65 @@ header {
     color: var(--purple);
     border-color: transparent;
     padding: .5rem 1rem;
+}
+.cat-subscribe__plan-container {
+    width: 65%;
+    margin: 0 auto;
+    gap:8rem;
+}
+.cat-subscribe__plan {
+    background-color: var(--purple);
+    color: white;
+    border-radius: 20px;
+    box-shadow: var(--shadow-btn);
+    padding: 2rem;
+    /* max-width: 40rem; */
+    flex: 1;
+    border: 1px solid black;
+}
+.cat-subscribe__plan-title {
+    font-size: 3rem;
+    margin: 0;
+}
+.cat-subscribe__plan-price {
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+}
+.cat-subscribe__plan ul {
+    text-align: left;
+}
+.cat-subscribe__plan ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.cat-subscribe__plan li i {
+    font-size: 2.5rem;
+}
+.cat-subscribe__plan .btn {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.cat-subscribe__plan .btn:hover {
+    background-color: var(--purple);
+    border-color: var(--purple);
+    color: white;
+}
+.cat-subscribe__black {
+    color: black;
+    background-color: transparent;
+}
+.cat-subscribe__black .cat-subscribe__plan-price {
+    color: black;
+}
+.cat-subscribe__black ul i {
+    color: var(--green-valid);
+}
+.cat-subscribe__black .btn  {
+    background-color: var(--text);
+    border-color: var(--text);
 }
