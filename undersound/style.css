@@ -405,7 +405,23 @@ header {
 }
 .btn-option {
     border-color: black;
-    /* border-width: 1px; */
+    border-width: 1px;
     background-color: transparent;
     color: black;
+}
+.cat-card__container {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+.cat-card {
+    padding: 1rem 1.5rem;
+    background: white;
+    box-shadow: var(--shadow-btn);
+    border-radius: 10px;
+}
+.cat-card__img {
+    width: 10rem;
+    border-radius: 5px;
 }
