@@ -425,3 +425,34 @@ header {
     width: 10rem;
     border-radius: 5px;
 }
+.cat-register {
+    margin: 8rem 0;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: var(--shadow-btn);
+    height: 20rem;
+    position: relative;
+}
+.cat-register__content {
+    width: 70%;
+    padding: 1rem 0 1rem 4rem;
+}
+.cat-register__img img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40rem;
+}
+.cat-register__img::before {
+    content: '';
+    display: block;
+    height: 20rem;
+    width: 50rem;
+    background: url(./img/title-svg-sound-wave.png) center/cover;
+    opacity: .25;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.cat
