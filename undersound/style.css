@@ -9,6 +9,7 @@
     --orange: #F76B23;
     --yellow: #E0A12C;
     --green: #1FAFA4;
+    --green-valid: #1BD0C3;
 
     --playfair: 'Playfair Display', serif;
 
@@ -51,6 +52,10 @@ a {
 }
 a:hover {
     color: var(--purple);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 .btn {
     display: inline-block;
@@ -204,6 +209,11 @@ header {
 .info {
     background-color: var(--bg-pink);
     padding: 5rem 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .section-title span {
     color: var(--purple);
@@ -217,6 +227,13 @@ header {
     width: 60%;
     margin: 0 auto;
 }
+.info-card__container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(50%);
+    padding: 0 5rem;
+}
 .info-card {
     position: relative;
     text-align: left;
@@ -224,6 +241,7 @@ header {
     border: 1px solid black;
     border-radius: 20px;
     color: black;
+    flex: 1;
 }
 .info-card:first-of-type {
     background-color: var(--orange);
@@ -266,4 +284,56 @@ header {
     background-color: transparent;
     border-color: black;
     color: black;
+}
+
+/* FEATURES SECTION */
+.features {
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    background-color: var(--bg-beige);
+}
+.features-content {
+    flex: 30%;
+}
+.features-content ul li {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+.features-content ul li i{
+    color: var(--green-valid);
+    font-size: 2.5rem;
+}
+.features-content .btn {
+    width: max-content;
+}
+.features-img {
+    flex: 40%;
+    background-color: var(--purple);
+    border-radius: 20px;
+    height: 28rem;
+    max-width: 50rem;
+    position: relative;
+}
+.features-img__wave {
+    position: absolute;
+    width: 60rem;
+    top: calc(50% - 12rem);
+    left: -5rem;
+}
+.features-img__media {
+    position: absolute;
+    width: 18rem;
+    top: -5rem;
+    left: 5rem;
+}
+.features-img__girl {
+    position: absolute;
+    width: 20rem;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 20px;
 }
