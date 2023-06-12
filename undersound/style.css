@@ -7,6 +7,8 @@
     --text: #4F4F4F;
     --blue: #0165C1;
     --orange: #F76B23;
+    --yellow: #E0A12C;
+    --green: #1FAFA4;
 
     --playfair: 'Playfair Display', serif;
 
@@ -96,6 +98,7 @@ header {
 .hero-content {
     padding: 2.5rem 0;
     width: 45%;
+    position: relative;
 }
 .hero-subtitle {
     color: var(--purple);
@@ -107,6 +110,12 @@ header {
 }
 .hero-title span {
     color: var(--purple);
+}
+.hero-line {
+    width: 30rem;
+    position: absolute;
+    top: 10.5rem;
+    left: 5rem;
 }
 .hero-btns {
     gap: 10rem;
@@ -207,4 +216,54 @@ header {
     padding: 3rem;
     width: 60%;
     margin: 0 auto;
+}
+.info-card {
+    position: relative;
+    text-align: left;
+    padding: 1rem 1rem 1rem 10rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+}
+.info-card:first-of-type {
+    background-color: var(--orange);
+}
+.info-card:nth-of-type(2) {
+    background-color: var(--yellow);
+}
+.info-card:last-of-type {
+    background-color: var(--green);
+}
+.info-card__img {
+    width: 12rem;
+    position: absolute;
+    left: -2rem;
+    bottom: 0;
+    z-index: 1;
+}
+.info-card:nth-of-type(2) .info-card__img {
+    width: 14rem;
+}
+.info-card__title,
+.info-card__text,
+.btn-card {
+    position: relative;
+    color: black;
+    z-index: 2;
+}
+.btn-card {
+    background-color: black;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 11rem;
+    padding: .5rem 1rem;
+    color: white;
+}
+.btn-card:hover {
+    background-color: transparent;
+    border-color: black;
+    color: black;
 }
