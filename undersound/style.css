@@ -390,3 +390,22 @@ header {
     background-color: var(--purple-bg-card);
     color: var(--purple);
 }
+
+
+/* CATEGORIES SECTION */
+.cat {
+    background-color: var(--bg-beige);
+    padding: 8rem 0;
+}
+.cat-hero__content {
+    flex: 30%;
+}
+.cat-hero__options {
+    flex: 70%;
+}
+.btn-option {
+    border-color: black;
+    /* border-width: 1px; */
+    background-color: transparent;
+    color: black;
+}
