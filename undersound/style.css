@@ -6,11 +6,15 @@
     --purple: #936CDF;
     --text: #4F4F4F;
     --blue: #0165C1;
-    --orange: #F76B23;
+    --orange: #F56823;
     --yellow: #E0A12C;
     --green: #1FAFA4;
     --green-valid: #1BD0C3;
 
+    --green-bg-card: rgba(27, 208, 196, 0.2);
+    --orange-bg-card: rgba(245, 105, 35, 0.2);
+    --yellow-bg-card: rgba(224, 161, 44, 0.2);
+    --purple-bg-card: rgba(146, 108, 223, 0.2);
     --playfair: 'Playfair Display', serif;
 
     --shadow-btn: 0 2px 15px rgba(0,0,0, .3);
@@ -336,4 +340,53 @@ header {
     bottom: 0;
     right: 0;
     border-bottom-right-radius: 20px;
+}
+
+/* SHARE SECTION */
+.share {
+    margin: 10rem 0;
+    position: relative;
+}
+.share-bg {
+    position: absolute;
+    transform: rotate(60deg);
+    width: 25rem;
+    top: -5rem;
+    left: -5rem;
+}
+.share-text {
+    width: 70%;
+}
+.share-card__container {
+    padding: 0 5rem;
+}
+.share-card {
+    flex: 1;
+}
+.share-card__text {
+    width: 80%;
+}
+.share-card__icon {
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.share-card:nth-of-type(1) .share-card__icon {
+    background-color: var(--green-bg-card);
+    color: var(--green);
+}
+.share-card:nth-of-type(2) .share-card__icon {
+    background-color: var(--orange-bg-card);
+    color: var(--orange);
+}
+.share-card:nth-of-type(3) .share-card__icon {
+    background-color: var(--yellow-bg-card);
+    color: var(--yellow);
+}
+.share-card:nth-of-type(4) .share-card__icon {
+    background-color: var(--purple-bg-card);
+    color: var(--purple);
 }
