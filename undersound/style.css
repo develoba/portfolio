@@ -638,3 +638,11 @@ header {
     bottom: 0;
     right: 0;
 }
+
+/* FOOTER */
+.nav-container {
+    gap: 10rem;
+}
+footer .navbar-nav {
+    gap: 0;
+}
