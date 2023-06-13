@@ -403,14 +403,14 @@ header {
 
 
 /* CATEGORIES SECTION */
-.cat {
+.categories {
     background-color: var(--bg-beige);
     padding: 8rem 0;
 }
-.cat-hero__content {
+.categories-content {
     flex: 30%;
 }
-.cat-hero__options {
+.categories-options {
     flex: 70%;
 }
 .btn-option {
@@ -419,24 +419,29 @@ header {
     background-color: transparent;
     color: black;
 }
-.cat-card__container {
+.categories-card__container {
     margin-top: 6rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
 }
-.cat-card {
+.categories-card {
     padding: 1rem 1.5rem;
     background: white;
     box-shadow: var(--shadow-btn);
     border-radius: 10px;
 }
-.cat-card__img {
+.categories-card__img {
     width: 10rem;
     border-radius: 5px;
 }
-.cat-register {
-    margin: 8rem 0;
+
+/* REGISTER SECTION */
+.register {
+    background-color: var(--bg-beige);
+    padding: 8rem 0;
+}
+.register-container {
     background-color: var(--yellow);
     border-radius: 10px;
     border: 1px solid black;
@@ -444,17 +449,17 @@ header {
     height: 20rem;
     position: relative;
 }
-.cat-register__content {
+.register-content {
     width: 70%;
     padding: 1rem 0 1rem 4rem;
 }
-.cat-register__img img {
+.register-img img {
     position: absolute;
     right: 0;
     bottom: 0;
     width: 40rem;
 }
-.cat-register__img::before {
+.register-img::before {
     content: '';
     display: block;
     height: 20rem;
@@ -465,7 +470,12 @@ header {
     right: 0;
     bottom: 0;
 }
-.cat-subscribe__btn-container {
+
+/* PLAN SECTION */
+.plan {
+    background-color: var(--bg-beige);
+}
+.plan-btn__container {
     background-color: white;
     width: max-content;
     margin: 0 auto;
@@ -474,23 +484,23 @@ header {
     display: flex;
     align-items: center;
 }
-.cat-subscribe__btn {
+.plan-btn {
     box-shadow: none;
     border-radius: 8px;
     padding: .5rem;
 }
-.cat-subscribe__btn:nth-of-type(2) {
+.plan-btn:nth-of-type(2) {
     background-color: transparent;
     color: var(--purple);
     border-color: transparent;
     padding: .5rem 1rem;
 }
-.cat-subscribe__plan-container {
+.plan-modal__container {
     width: 65%;
     margin: 0 auto;
     gap:8rem;
 }
-.cat-subscribe__plan {
+.plan-modal {
     background-color: var(--purple);
     color: white;
     border-radius: 20px;
@@ -500,49 +510,52 @@ header {
     flex: 1;
     border: 1px solid black;
 }
-.cat-subscribe__plan-title {
+.plan-modal__title {
     font-size: 3rem;
     margin: 0;
 }
-.cat-subscribe__plan-price {
+.plan-modal__price {
     font-size: 5rem;
     color: white;
     font-weight: bold;
 }
-.cat-subscribe__plan ul {
+.plan-modal ul {
     text-align: left;
 }
-.cat-subscribe__plan ul li {
+.plan-modal ul li {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
     margin-bottom: 1rem;
 }
-.cat-subscribe__plan li i {
+.plan-modal li i {
     font-size: 2.5rem;
 }
-.cat-subscribe__plan .btn {
+.plan-modal .btn {
     margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.cat-subscribe__plan .btn:hover {
+.plan-modal .btn:hover {
     background-color: var(--purple);
     border-color: var(--purple);
     color: white;
 }
-.cat-subscribe__black {
+.plan-modal__black {
     color: black;
     background-color: transparent;
 }
-.cat-subscribe__black .cat-subscribe__plan-price {
+.plan-modal__black .plan-modal__price {
     color: black;
 }
-.cat-subscribe__black ul i {
+.plan-modal__black ul i {
     color: var(--green-valid);
 }
-.cat-subscribe__black .btn  {
+.plan-modal__black .btn  {
     background-color: var(--text);
     border-color: var(--text);
+}
+.cat-email {
+
 }
