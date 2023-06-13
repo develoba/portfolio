@@ -556,6 +556,85 @@ header {
     background-color: var(--text);
     border-color: var(--text);
 }
-.cat-email {
 
+/* NEWSLETTER SECTION */
+.newsletter {
+    background-color: var(--bg-beige);
+    padding: 8rem 0;
+}
+.newsletter-container {
+    background-color: var(--green);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: var(--shadow-btn);
+    position: relative;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.newsletter-users div {
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+}
+.newsletter-users__one {
+    width: 7.5rem;
+    height: 7.5rem;
+    background: url(./img/register-user1.jpg) center/cover;
+    bottom: 1rem;
+    left: 1rem;
+}
+.newsletter-users__two {
+    width: 6.5rem;
+    height: 6.5rem;
+    background: url(./img/register-user2.jpg) center/cover;
+    top: 1rem;
+    left: 8rem;
+}
+.newsletter-users__three {
+    width: 5rem;
+    height: 5rem;
+    background: url(./img/register-user3.jpg) center/cover;
+    bottom: 3rem;
+    left: 13rem;
+}
+.newsletter-content {
+    width: 70%;
+    margin: 0 auto;
+}
+.newsletter-form {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+.newsletter-form input {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+.newsletter-form input::placeholder {
+    color: var(--text);
+    opacity: .6;
+}
+.newsletter-form input:focus {
+    outline: none;
+    border: 2px solid black;
+}
+.newsletter-form button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2rem;
+    color: var(--text);
+}
+.newsletter-form button:hover {
+    color: var(--purple);
+}
+.newsletter-img {
+    width: 18rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
