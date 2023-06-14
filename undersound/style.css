@@ -432,6 +432,7 @@ header nav {
     width: 25rem;
     top: -5rem;
     left: -5rem;
+    transition: left .5s ease-in;
 }
 .share-text {
     width: 70%;
@@ -803,6 +804,19 @@ footer .socials-link i {
   
     .hero-btns {
         gap: 4rem;
+    }
+
+    .share-bg {
+        left: -40rem;
+    }
+    .share-text {
+        width: 95%;
+    }
+    .share-card__container {
+        flex-wrap: wrap;
+    }
+    .share-card {
+        min-width: 20rem;
     }
 }
 
