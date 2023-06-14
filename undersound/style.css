@@ -367,18 +367,17 @@ header nav {
 
 /* FEATURES SECTION */
 .features {
-    padding-top: 15rem;
-    padding-bottom: 10rem;
+    padding: 20rem 0;
     background-color: var(--bg-beige);
 }
 .features-content {
-    flex: 30%;
+    flex: 1;
 }
 .features-content ul li {
     display: flex;
     align-items: center;
     gap: .75rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     color: black;
     font-weight: 600;
 }
@@ -390,31 +389,36 @@ header nav {
     width: max-content;
 }
 .features-img {
-    flex: 40%;
+    flex: 2;
     background-color: var(--purple);
     border-radius: 20px;
+    box-shadow: var(--shadow-btn);
     height: 28rem;
-    max-width: 50rem;
+    max-width: 60rem;
     position: relative;
+    transition: max-width .5s ease-in;
 }
 .features-img__wave {
     position: absolute;
     width: 60rem;
     top: calc(50% - 12rem);
     left: -5rem;
+    transition: left .5s ease-in;
 }
 .features-img__media {
     position: absolute;
     width: 18rem;
     top: -5rem;
     left: 5rem;
+    transition: left .5s ease-in;
 }
 .features-img__girl {
     position: absolute;
-    width: 20rem;
+    width: 25rem;
     bottom: 0;
     right: 0;
     border-bottom-right-radius: 20px;
+    transition: width .5s ease-in;
 }
 
 /* SHARE SECTION */
@@ -750,6 +754,16 @@ footer .socials-link i {
         text-align: center;
         align-items: center;
     }
+    .features-img__wave {
+        left: -20rem;
+    }
+    .features-img__media {
+        left: 80rem;
+    }
+    .features-img {
+        max-width: 45rem;
+    }
+
 }
 
 @media screen and (width <= 1050px) {
@@ -813,6 +827,15 @@ footer .socials-link i {
     .hero-content {
         width: 60%;
     }
+    .features-img__wave {
+        left: 50rem;
+    }
+    .features-img {
+        max-width: 20rem;
+    }
+    .features-img__girl {
+        width: 18rem;
+    }
 }
 
 @media screen and (width <= 900px) {
@@ -857,6 +880,12 @@ footer .socials-link i {
         width: 100%;
         padding: 1.5rem;
     }
+    .features {
+        padding: 30rem 0 10rem;
+    }
+    .features-img {
+        display: none;
+    }
 }
 @media screen and (width <= 600px) {
     .hero-img::after {
@@ -899,11 +928,26 @@ footer .socials-link i {
     }
 
 }
+@media screen and (width <= 426px) {
+    .info-card__container {
+        bottom: -80%;
+    }
+    .features {
+        padding-top: 55rem;
+    }
+    .features .btn {
+        width: 100%;
+        padding: 1.3rem 0;
+    }
+}
 @media screen and (width <= 320px) {
     .sidebar a i {
         font-size: 2rem;
     }
     .navbar-brand {
         font-size: 2rem;
+    }
+    .info-card__container {
+        bottom: -70%;
     }
 }
