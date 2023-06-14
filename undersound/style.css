@@ -210,6 +210,7 @@ header {
     display: grid;
     place-content: center;
     border: 2px solid white;
+    margin: 0;
 }
 .hero-users__img figure:not(:first-of-type) {
     margin-left: -1.5rem;
@@ -222,7 +223,7 @@ header {
 /* INFORMATION SECTION */
 .info {
     background-color: var(--bg-pink);
-    padding: 5rem 0;
+    padding: 5rem 0 8rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -244,9 +245,12 @@ header {
 .info-card__container {
     position: absolute;
     bottom: 0;
-    left: 0;
-    transform: translateY(50%);
+    left: 50%;
+    transform: translate(-50%, 50%);
     padding: 0 5rem;
+    width: 100%;
+    /* margin: 0 auto; */
+    
 }
 .info-card {
     position: relative;
@@ -256,6 +260,7 @@ header {
     border-radius: 20px;
     color: black;
     flex: 1;
+    max-width: 50rem;
 }
 .info-card:first-of-type {
     background-color: var(--orange);
@@ -489,6 +494,10 @@ header {
     border-radius: 8px;
     padding: .5rem;
 }
+.plan-btn:first-of-type:hover {
+    background-color: var(--purple);
+    color: white;
+}
 .plan-btn:nth-of-type(2) {
     background-color: transparent;
     color: var(--purple);
@@ -640,9 +649,23 @@ header {
 }
 
 /* FOOTER */
+footer nav {
+    padding: 3rem 0;
+}
+footer .navbar-brand {
+    margin-right: 0;
+    font-size: 2rem;
+}
+footer .navbar-brand img {
+    width: 2rem;
+}
 .nav-container {
     gap: 10rem;
+    flex: 2;
 }
 footer .navbar-nav {
     gap: 0;
+}
+footer .socials-link i {
+    font-size: 2rem;
 }
