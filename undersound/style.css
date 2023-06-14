@@ -855,3 +855,11 @@ footer .socials-link i {
     }
 
 }
+@media screen and (width <= 320px) {
+    .sidebar a i {
+        font-size: 2rem;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
