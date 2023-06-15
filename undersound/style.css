@@ -554,6 +554,7 @@ header nav {
 /* PLAN SECTION */
 .plan {
     background-color: var(--bg-beige);
+    padding: 8rem 0;
 }
 .plan-btn__container {
     background-color: white;
@@ -580,9 +581,9 @@ header nav {
     padding: .5rem 1rem;
 }
 .plan-modal__container {
-    width: 65%;
+    width: min(85rem, 95%);
     margin: 0 auto;
-    gap:8rem;
+    gap:4rem;
 }
 .plan-modal {
     background-color: var(--purple);
