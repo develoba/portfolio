@@ -523,8 +523,9 @@ header nav {
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: var(--shadow-btn);
-    height: 20rem;
+    /* height: 20rem; */
     position: relative;
+    width: calc(100% - 1rem);
 }
 .register-content {
     width: 70%;
@@ -535,6 +536,7 @@ header nav {
     right: 0;
     bottom: 0;
     width: 40rem;
+    transition: right .5s ease-in;
 }
 .register-img::before {
     content: '';
@@ -546,6 +548,7 @@ header nav {
     position: absolute;
     right: 0;
     bottom: 0;
+    transition: right .5s ease-in;
 }
 
 /* PLAN SECTION */
@@ -831,6 +834,10 @@ footer .socials-link i {
     .categories-options {
         flex: 50%;
     }
+
+    .register-img::before {
+        right: -18rem;
+    }
 }
 
 
@@ -907,6 +914,23 @@ footer .socials-link i {
     .categories-card__content {
         justify-content: space-between;
         padding: 1rem 0;
+    }
+    .register-img img {
+        right: -40rem;
+    }
+    .register-img::before {
+        right: -40rem;
+    }
+    .register-content {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .register .btn-card {
+        width: 85%;
+        margin: 0 auto;
+        padding: 1.2rem 0;
     }
 }
 @media screen and (width <= 630px) {
