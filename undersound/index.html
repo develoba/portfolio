@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <link rel="icon" href="./img/logo.svg">
     <title>UnderSound</title>
 
@@ -16,447 +16,450 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md" id="navbar">
-            <div class="header-container container container-fluid">
-                <a href="#" class="navbar-brand">
-                    <img class="img-fluid" src="./img/logo.svg" alt="logo of undersound" width="25px">
-                    <p>UnderSound</p>
-                </a>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a href="#info" class="nav-link">Información</a></li>
-                        <li class="nav-item"><a href="#features" class="nav-link">Características</a></li>
-                        <li class="nav-item"><a href="#categories" class="nav-link">Categorías</a></li>
-                        <li class="nav-item"><a href="#price" class="nav-link">Precios</a></li>
-                    </ul>
-                </div>
-
-                <div class="sidebar">
-                    <a href="#offCanvas" data-bs-toggle="offcanvas" role="button" aria-controls="offCanvas">
-                        <i class="fa-solid fa-bars"></i>
-                    </a>
-
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvas" aria-labelledby="offcanvasLabel">
-                        <div class="offcanvas-header mb-5">
-                            <h5 class="offcanvas-title" id="offcanvasLabel">Menú principal</h5>
-                            <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav">
-                                <li class="nav-item"><a href="#info" class="nav-link">Información</a></li>
-                                <li class="nav-item"><a href="#features" class="nav-link">Características</a></li>
-                                <li class="nav-item"><a href="#categories" class="nav-link">Categorías</a></li>
-                                <li class="nav-item"><a href="#price" class="nav-link">Precios</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="navbar-hero-img__container">
-                    <div class="navbar-hero-bg"></div>
-                    <div class="navbar-hero-img"></div>
-                </div>
-            </div>
-        </nav>
-
-        <section class="hero container">
-
-            <div class="hero-img"></div>
-            
-            <div class="hero-content d-flex flex-column">
-                <h3 class="hero-subtitle">Descubre Nuevos Sonidos</h3>
-                <h1 class="hero-title">El Mejor Lugar Para Descubrir la <span>Vanguardia</span> Musical.</h1>
-                <img src="./img/line.svg" alt="" class="hero-line">
-                <p class="hero-text">Explora nuevos géneros, descubre artistas emergentes y sumérgete en una experiencia auditiva auténtica. Con nuestra plataforma de streaming, podrás disfrutar de un mundo de sonidos alternativos y vibrantes que desafían los límites musicales convencionales. 
-                ¡Sintoniza con la revolución sonora de UnderSound y déjate llevar por la pasión de la música underground!</p>
-
-                <div class="hero-btns d-flex align-items-center">
-                    <a href="#" class="btn btn-purple">Comenzar prueba</a>
-                    <a href="#" class="btn-see d-flex align-items-center gap-2">
-                        <i class="fa-regular fa-circle-play"></i>
-                        Ver plataforma
-                    </a>
-                </div>
-                <div class="hero-users d-flex align-items-center gap-5 py-4">
-                    <div class="hero-users__img d-flex align-items-center">
-                        <figure>
-                            <img class="img-fluid" src="./img/user1.jpg" alt="">
-                        </figure>
-                        <figure>
-                            <img class="img-fluid" src="./img/user2.jpg" alt="">
-                        </figure>
-                        <figure>
-                            <img class="img-fluid" src="./img/user3.jpg" alt="">
-                        </figure>
-                    </div>
-
-                    <div class="hero-users__content">
-                        <p class="fw-bold">10M +</p>
-                        <p>Usuarios en todo el mundo</p>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-    </header>
-
-    <main>
-        <section class="info" id="info">
-            <div class="container text-center">
-                <h2 class="info-title section-title">Descubre, Aprende y <span>Disfruta</span></h2>
-                <p class="info-text">En UnderSound, creemos que la música es mucho más que solo entretenimiento. Es una fuente de aprendizaje, inspiración y conexión. Explora nuevos géneros, sumérgete en melodías introspectivas y rompe barreras con sonidos alternativos. Únete a nosotros, regístrate ahora y desata tu pasión por la música underground.</p>
-                <a class="btn mb-5">Regístrate!</a>
-                <div class="info-card__container d-flex align-items-stretch justify-content-center gap-5">
-                    <div class="info-card">
-                        <img src="./img/learn-card1.png" alt="" class="info-card__img">
-                        <h3 class="info-card__title">Ritmos étnicos</h3>
-                        <p class="info-card__text">Expande tus horizontes musicales y déjate cautivar por la diversidad</p>
-                        <a href="" onclick="return false" class="btn btn-card">
-                            <i class="fa-regular fa-circle-play"></i>
-                            Escuchar
-                        </a>
-                    </div>
-                    <div class="info-card">
-                        <img src="./img/learn-card2.png" alt="" class="info-card__img">
-                        <h3 class="info-card__title">Melodías introspectivas</h3>
-                        <p class="info-card__text">Deja que la música te guíe hacia nuevos horizontes de inspiración</p>
-                        <a href="" onclick="return false" class="btn btn-card">
-                            <i class="fa-regular fa-circle-play"></i>
-                            Escuchar
-                        </a>
-                    </div>
-                    <div class="info-card">
-                        <img src="./img/learn-card3.png" alt="" class="info-card__img">
-                        <h3 class="info-card__title">Rompiendo barreras</h3>
-                        <p class="info-card__text">Sé testigo de la evolución de la música alternativa expandiendo tus horizontes</p>
-                        <a href="" onclick="return false" class="btn btn-card">
-                            <i class="fa-regular fa-circle-play"></i>
-                            Escuchar
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="features" id="features">
-            <div class="container d-flex align-items-end">
-                <div class="features-content d-flex flex-column gap-4">
-                    <h2 class="features-title section-title mb-4">¿Qué nos hace <span>únicos</span>?</h2>
-                    <p class="features-text">¡Aquí tienes 4 ventajas que te harán entender por qué somos únicos!</p>
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            Diversidad musical sin límites
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            Conviértete en tu propio DJ
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            Experiencia personalizada
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            Apoyo a la comunidad de artistas
-                        </li>
-                    </ul>
-
-                    <a href="" onclick="return false" class="btn">Saber más</a>
-                </div>
-                <div class="features-img">
-                    <img src="./img/title-svg-sound-wave.png" alt="" class="features-img__wave">
-                    <img src="./img/features-user.png" alt="" class="features-img__girl">
-                    <img src="./img/feature-media.jpg" alt="" class="features-img__media">
-                </div>
-            </div>
-        </section>
-
-        <section class="share">
-            <img src="./img/micro.png" alt="" class="share-bg">
-            <div class="container text-center d-flex flex-column align-items-center gap-5">
-                <h2 class="section-title share-title">Comparte <span>tu música</span> con el mundo</h2>
-                <p class="share-text">UnderSound te brinda la oportunidad de compartir tu música original con una audiencia global. Sube tus creaciones y permite que otros disfruten de tu talento y creatividad. Únete a nuestra comunidad musical y haz que tu música resuene en todo el mundo.</p>
-                <div class="share-card__container d-flex align-items-stretch gap-5">
-                    <div class="share-card d-flex flex-column align-items-center gap-2">
-                        <i class="fa-solid fa-microphone share-card__icon"></i>
-                        <h3 class="share-card__title">Captura tus melodías</h3>
-                        <p class="share-card__text">Graba tus composiciones en alta calidad.</p>
-                    </div>
-                    <div class="share-card d-flex flex-column align-items-center gap-2">
-                        <i class="fa-solid share-card__icon fa-gear"></i>
-                        <h3 class="share-card__title">Ajusta y mejora</h3>
-                        <p class="share-card__text">Edita y mejora el sonido de tus pistas.</p>
-                    </div>
-                    <div class="share-card d-flex flex-column align-items-center gap-2">
-                        <i class="fa-solid share-card__icon fa-arrow-up-from-bracket"></i>
-                        <h3 class="share-card__title">Comparte tus creaciones</h3>
-                        <p class="share-card__text">Sube tus archivos de música a UnderSound.</p>
-                    </div>
-                    <div class="share-card d-flex flex-column align-items-center gap-2">
-                        <i class="fa-solid share-card__icon fa-crown"></i>
-                        <h3 class="share-card__title">Destaca como premium</h3>
-                        <p class="share-card__text">Accede a funciones avanzadas para promocionar tu música.</p>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        <section class="categories" id="categories">
-            <div class="container">
-                <div class="categories-hero d-flex gap-5">
-                    <div class="categories-content">
-                        <h2 class="section-title categories-title mb-5">Explora nuestras <span>Categorías Musicales</span></h2>
-                        <p class="categories-text">UnderSound ofrece una amplia variedad de categorías musicales para satisfacer todos los gustos. Descubre nuevos estilos y géneros en nuestra plataforma.</p>
-                    </div>
-                    <div class="categories-options d-flex align-items-start justify-content-end flex-wrap align-content-start">
-                        <a href="" onclick="return false" class="btn">Todas</a>
-                        <a href="" onclick="return false" class="btn btn-option">Pop</a>
-                        <a href="" onclick="return false" class="btn btn-option">Rock</a>
-                        <a href="" onclick="return false" class="btn btn-option">Electrónica</a>
-                        <a href="" onclick="return false" class="btn btn-option">Hip-hop</a>
-                        <a href="" onclick="return false" class="btn btn-option">Jazz</a>
-                    </div>
-                </div>
-
-                <div class="categories-card__container">
-                    <div class="categories-card d-flex align-items-center gap-4">
-                        <img src="./img/categoria-1.jpg" alt="" class="categories-card__img">
-                        <div class="categories-card__content">
-                            <h4 class="categories-card__title">Canciones para levantar el ánimo</h4>
-                            <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
-                                <i class="fa-solid fa-circle-play"></i>
-                                Escuchar
-                            </a>
-                        </div>
-                    </div>
-                    <div class="categories-card d-flex align-items-center gap-4">
-                        <img src="./img/categoria-2.jpg" alt="" class="categories-card__img">
-                        <div class="categories-card__content">
-                            <h4 class="categories-card__title">Noches de Rock clásico</h4>
-                            <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
-                                <i class="fa-solid fa-circle-play"></i>
-                                Escuchar
-                            </a>
-                        </div>
-                    </div>
-                    <div class="categories-card d-flex align-items-center gap-4">
-                        <img src="./img/categoria-3.jpg" alt="" class="categories-card__img">
-                        <div class="categories-card__content">
-                            <h4 class="categories-card__title">Electro Beats para tus entrenamientos</h4>
-                            <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
-                                <i class="fa-solid fa-circle-play"></i>
-                                Escuchar
-                            </a>
-                        </div>
-                    </div>
-                    <div class="categories-card d-flex align-items-center gap-4">
-                        <img src="./img/categoria-4.jpg" alt="" class="categories-card__img">
-                        <div class="categories-card__content">
-                            <h4 class="categories-card__title">Flow de Hip-hop urbano</h4>
-                            <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
-                                <i class="fa-solid fa-circle-play"></i>
-                                Escuchar
-                            </a>
-                        </div>
-                    </div>
-                    <div class="categories-card d-flex align-items-center gap-4">
-                        <img src="./img/categoria-5.jpg" alt="" class="categories-card__img">
-                        <div class="categories-card__content">
-                            <h4 class="categories-card__title">Jazz suave para relajarse</h4>
-                            <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
-                                <i class="fa-solid fa-circle-play"></i>
-                                Escuchar
-                            </a>
-                        </div>
-                    </div>
-                    <div class="categories-card d-flex align-items-center gap-4">
-                        <img src="./img/categoria-6.jpg" alt="" class="categories-card__img">
-                        <div class="categories-card__content">
-                            <h4 class="categories-card__title">Éxitos del Pop contemporáneo</h4>
-                            <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
-                                <i class="fa-solid fa-circle-play"></i>
-                                Escuchar
-                            </a>
-                        </div>
-                    </div>
-                    <div class="categories-card d-flex align-items-center gap-4">
-                        <img src="./img/categoria-7.jpg" alt="" class="categories-card__img">
-                        <div class="categories-card__content">
-                            <h4 class="categories-card__title">Ritmos latinos calientes</h4>
-                            <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
-                                <i class="fa-solid fa-circle-play"></i>
-                                Escuchar
-                            </a>
-                        </div>
-                    </div>
-                    <div class="categories-card d-flex align-items-center gap-4">
-                        <img src="./img/categoria-8.jpg" alt="" class="categories-card__img">
-                        <div class="categories-card__content">
-                            <h4 class="categories-card__title">Música clásica para inspirarte</h4>
-                            <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
-                                <i class="fa-solid fa-circle-play"></i>
-                                Escuchar
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="register">
-            <div class="container register-container">
-                <div class="register-content d-flex flex-column gap-4">
-                    <h2 class="section-title">¿Estás listo para descubrir nueva música y expandir tus horizontes sonoros?</h2>
-                    <p class="register-text">Suscríbete mensualmente y desbloquea un mundo musical sin límites.</p>
-                    <a href="" onclick="return false" class="btn btn-card">
-                        Regístrate
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                </div>
-                <div class="register-img">
-                    <img src="./img/subscribe-singer.png" alt="">
-                </div>
-            </div>
-        </section>
-
-        <section class="plan" id="price">
-            <div class="container plan-container d-flex flex-column gap-5 text-center">
-                <h2 class="section-title">Elige el plan perfecto para disfrutar de la <span>mejor música</span></h2>
-                <div class="plan-btn__container">
-                    <a href="" onclick="return false" class=" btn plan-btn">Mensual</a>
-                    <a href="" onclick="return false" class="btn plan-btn">Anual</a>
-                </div>
-                <div class="plan-modal__container d-flex align-items-stretch flex-wrap">
-                    <div class="plan-modal d-flex flex-column justify-content-between  gap-3">
-                        <h3 class="plan-modal__title">Básico</h3>
-                        <p class="plan-modal__price">15.99€</p>
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Acceso ilimitado a nuestra amplia biblioteca musical.
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Escucha sin interrupciones con anuncios limitados.
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Explora y descubre nuevas playlists y artistas destacados.
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Creación de listas de reproducción personalizadas.
-                            </li>
-                        </ul>
-                        <a href="" onclick="return false" class="btn btn-black">
-                            Prueba gratis
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-    
-                    <div class="plan-modal d-flex flex-column gap-3 plan-modal__black">
-                        <h3 class="plan-modal__title">Premium</h3>
-                        <p class="plan-modal__price">25.99€</p>
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Todas las características del Plan Básico incluidas.
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Reproducción en alta calidad de audio sin pérdida.
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Sin anuncios en ningún momento para una experiencia ininterrumpida.
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-circle-check"></i>
-                                Descarga tus canciones favoritas para disfrutarlas sin conexión.
-                            </li>
-                        </ul>
-                        <a href="" onclick="return false" class="btn btn-black">
-                            Prueba gratis
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="newsletter ">
-            <div class="container newsletter-container">
-                <div class="newsletter-users">
-                    <div class="newsletter-users__one"></div>
-                    <div class="newsletter-users__two"></div>
-                    <div class="newsletter-users__three"></div>
-                </div>
-
-                <div class="newsletter-content">
-                    <h2 class="section-title mb-4">¡Regístrate para recibir novedades y canciones más populares cada semana!</h2>
-                    <form action="" class="newsletter-form">
-                        <input type="email" placeholder="Inserta tu correo electrónico" name="email">
-                        <button type="submit">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                    </form>
-                </div>
-
-                <img src="./img/register-user.png" class="newsletter-img">
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <nav>
-            <div class="container">
-                <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
-                    <a href="" onclick="return false" class="navbar-brand">
+    <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-md" id="navbar">
+                <div class="header-container container container-fluid">
+                    <a href="#" class="navbar-brand">
                         <img class="img-fluid" src="./img/logo.svg" alt="logo of undersound" width="25px">
                         <p>UnderSound</p>
                     </a>
-                    <div class="nav-container d-flex align-items-start justify-content-center">
-                        <div class="nav d-flex flex-column">
-                            <h3 class="nav-title">Enlaces Rápidos</h3>
-                            <ul class="navbar-nav d-flex flex-column">
-                                <li class="nav-item"><a href="#info" class="nav-link">Información</a></li>
-                                <li class="nav-item"><a href="#features" class="nav-link">Características</a></li>
-                                <li class="nav-item"><a href="#categories" class="nav-link">Categorías</a></li>
-                                <li class="nav-item"><a href="#price" class="nav-link">Precios</a></li>
-                            </ul>
-                        </div>
-                        <div class="nav d-flex flex-column">
-                            <h3 class="nav-title">Otros Enlaces</h3>
-                            <ul class="navbar-nav d-flex flex-column">
-                                <li class="nav-item"><a href="" onclick="return false" class="nav-link">Privacidad</a></li>
-                                <li class="nav-item"><a href="" onclick="return false" class="nav-link">Términos y Condiciones</a></li>
-                                <li class="nav-item"><a href="" onclick="return false" class="nav-link">FAQ</a></li>
-                            </ul>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#info" class="nav-link">Información</a></li>
+                            <li class="nav-item"><a href="#features" class="nav-link">Características</a></li>
+                            <li class="nav-item"><a href="#categories" class="nav-link">Categorías</a></li>
+                            <li class="nav-item"><a href="#price" class="nav-link">Precios</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="sidebar">
+                        <a href="#offCanvas" data-bs-toggle="offcanvas" role="button" aria-controls="offCanvas">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+    
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvas" aria-labelledby="offcanvasLabel">
+                            <div class="offcanvas-header mb-5">
+                                <h5 class="offcanvas-title" id="offcanvasLabel">Menú principal</h5>
+                                <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a href="#info" class="nav-link">Información</a></li>
+                                    <li class="nav-item"><a href="#features" class="nav-link">Características</a></li>
+                                    <li class="nav-item"><a href="#categories" class="nav-link">Categorías</a></li>
+                                    <li class="nav-item"><a href="#price" class="nav-link">Precios</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="socials d-flex align-items-center justify-content-end gap-5">
-                        <a href="" onclick="return false" target="_blank" class="socials-link">
-                            <i class="fa-brands fa-facebook"></i>
+    
+                    <div class="navbar-hero-img__container">
+                        <div class="navbar-hero-bg"></div>
+                        <div class="navbar-hero-img"></div>
+                    </div>
+                </div>
+            </nav>
+    
+            <section class="hero container">
+    
+                <div class="hero-img"></div>
+                
+                <div class="hero-content d-flex flex-column">
+                    <h3 class="hero-subtitle">Descubre Nuevos Sonidos</h3>
+                    <h1 class="hero-title">El Mejor Lugar Para Descubrir la <span>Vanguardia</span> Musical.</h1>
+                    <img src="./img/line.svg" alt="" class="hero-line">
+                    <p class="hero-text">Explora nuevos géneros, descubre artistas emergentes y sumérgete en una experiencia auditiva auténtica. Con nuestra plataforma de streaming, podrás disfrutar de un mundo de sonidos alternativos y vibrantes que desafían los límites musicales convencionales. 
+                    ¡Sintoniza con la revolución sonora de UnderSound y déjate llevar por la pasión de la música underground!</p>
+    
+                    <div class="hero-btns d-flex align-items-center">
+                        <a href="#" class="btn btn-purple">Comenzar prueba</a>
+                        <a href="#" class="btn-see d-flex align-items-center gap-2">
+                            <i class="fa-regular fa-circle-play"></i>
+                            Ver plataforma
                         </a>
-                        <a href="" onclick="return false" target="_blank" class="socials-link">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="" onclick="return false" target="_blank" class="socials-link">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
+                    </div>
+                    <div class="hero-users d-flex align-items-center gap-5 py-4">
+                        <div class="hero-users__img d-flex align-items-center">
+                            <figure>
+                                <img class="img-fluid" src="./img/user1.jpg" alt="">
+                            </figure>
+                            <figure>
+                                <img class="img-fluid" src="./img/user2.jpg" alt="">
+                            </figure>
+                            <figure>
+                                <img class="img-fluid" src="./img/user3.jpg" alt="">
+                            </figure>
+                        </div>
+    
+                        <div class="hero-users__content">
+                            <p class="fw-bold">10M +</p>
+                            <p>Usuarios en todo el mundo</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </section>
+        </header>
+    
+        <main>
+            <section class="info" id="info">
+                <div class="container text-center">
+                    <h2 class="info-title section-title">Descubre, Aprende y <span>Disfruta</span></h2>
+                    <p class="info-text">En UnderSound, creemos que la música es mucho más que solo entretenimiento. Es una fuente de aprendizaje, inspiración y conexión. Explora nuevos géneros, sumérgete en melodías introspectivas y rompe barreras con sonidos alternativos. Únete a nosotros, regístrate ahora y desata tu pasión por la música underground.</p>
+                    <a class="btn mb-5">Regístrate!</a>
+                    <div class="info-card__container d-flex align-items-stretch justify-content-center gap-5">
+                        <div class="info-card">
+                            <img src="./img/learn-card1.png" alt="" class="info-card__img">
+                            <h3 class="info-card__title">Ritmos étnicos</h3>
+                            <p class="info-card__text">Expande tus horizontes musicales y déjate cautivar por la diversidad</p>
+                            <a href="" onclick="return false" class="btn btn-card">
+                                <i class="fa-regular fa-circle-play"></i>
+                                Escuchar
+                            </a>
+                        </div>
+                        <div class="info-card">
+                            <img src="./img/learn-card2.png" alt="" class="info-card__img">
+                            <h3 class="info-card__title">Melodías introspectivas</h3>
+                            <p class="info-card__text">Deja que la música te guíe hacia nuevos horizontes de inspiración</p>
+                            <a href="" onclick="return false" class="btn btn-card">
+                                <i class="fa-regular fa-circle-play"></i>
+                                Escuchar
+                            </a>
+                        </div>
+                        <div class="info-card">
+                            <img src="./img/learn-card3.png" alt="" class="info-card__img">
+                            <h3 class="info-card__title">Rompiendo barreras</h3>
+                            <p class="info-card__text">Sé testigo de la evolución de la música alternativa expandiendo tus horizontes</p>
+                            <a href="" onclick="return false" class="btn btn-card">
+                                <i class="fa-regular fa-circle-play"></i>
+                                Escuchar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="features" id="features">
+                <div class="container d-flex align-items-end">
+                    <div class="features-content d-flex flex-column gap-4">
+                        <h2 class="features-title section-title mb-4">¿Qué nos hace <span>únicos</span>?</h2>
+                        <p class="features-text">¡Aquí tienes 4 ventajas que te harán entender por qué somos únicos!</p>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                Diversidad musical sin límites
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                Conviértete en tu propio DJ
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                Experiencia personalizada
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                Apoyo a la comunidad de artistas
+                            </li>
+                        </ul>
+    
+                        <a href="" onclick="return false" class="btn">Saber más</a>
+                    </div>
+                    <div class="features-img">
+                        <img src="./img/title-svg-sound-wave.png" alt="" class="features-img__wave">
+                        <img src="./img/features-user.png" alt="" class="features-img__girl">
+                        <img src="./img/feature-media.jpg" alt="" class="features-img__media">
+                    </div>
+                </div>
+            </section>
+    
+            <section class="share">
+                <img src="./img/micro.png" alt="" class="share-bg">
+                <div class="container text-center d-flex flex-column align-items-center gap-5">
+                    <h2 class="section-title share-title">Comparte <span>tu música</span> con el mundo</h2>
+                    <p class="share-text">UnderSound te brinda la oportunidad de compartir tu música original con una audiencia global. Sube tus creaciones y permite que otros disfruten de tu talento y creatividad. Únete a nuestra comunidad musical y haz que tu música resuene en todo el mundo.</p>
+                    <div class="share-card__container d-flex align-items-stretch gap-5">
+                        <div class="share-card d-flex flex-column align-items-center gap-2">
+                            <i class="fa-solid fa-microphone share-card__icon"></i>
+                            <h3 class="share-card__title">Captura tus melodías</h3>
+                            <p class="share-card__text">Graba tus composiciones en alta calidad.</p>
+                        </div>
+                        <div class="share-card d-flex flex-column align-items-center gap-2">
+                            <i class="fa-solid share-card__icon fa-gear"></i>
+                            <h3 class="share-card__title">Ajusta y mejora</h3>
+                            <p class="share-card__text">Edita y mejora el sonido de tus pistas.</p>
+                        </div>
+                        <div class="share-card d-flex flex-column align-items-center gap-2">
+                            <i class="fa-solid share-card__icon fa-arrow-up-from-bracket"></i>
+                            <h3 class="share-card__title">Comparte tus creaciones</h3>
+                            <p class="share-card__text">Sube tus archivos de música a UnderSound.</p>
+                        </div>
+                        <div class="share-card d-flex flex-column align-items-center gap-2">
+                            <i class="fa-solid share-card__icon fa-crown"></i>
+                            <h3 class="share-card__title">Destaca como premium</h3>
+                            <p class="share-card__text">Accede a funciones avanzadas para promocionar tu música.</p>
+                        </div>
                         
                     </div>
-                </div>                
-            </div>
-        </nav>
-    </footer>
+                </div>
+            </section>
+    
+            <section class="categories" id="categories">
+                <div class="container">
+                    <div class="categories-hero d-flex gap-5">
+                        <div class="categories-content">
+                            <h2 class="section-title categories-title mb-5">Explora nuestras <span>Categorías Musicales</span></h2>
+                            <p class="categories-text">UnderSound ofrece una amplia variedad de categorías musicales para satisfacer todos los gustos. Descubre nuevos estilos y géneros en nuestra plataforma.</p>
+                        </div>
+                        <div class="categories-options d-flex align-items-start justify-content-end flex-wrap align-content-start">
+                            <a href="" onclick="return false" class="btn">Todas</a>
+                            <a href="" onclick="return false" class="btn btn-option">Pop</a>
+                            <a href="" onclick="return false" class="btn btn-option">Rock</a>
+                            <a href="" onclick="return false" class="btn btn-option">Electrónica</a>
+                            <a href="" onclick="return false" class="btn btn-option">Hip-hop</a>
+                            <a href="" onclick="return false" class="btn btn-option">Jazz</a>
+                        </div>
+                    </div>
+    
+                    <div class="categories-card__container">
+                        <div class="categories-card d-flex align-items-center gap-4">
+                            <img src="./img/categoria-1.jpg" alt="" class="categories-card__img">
+                            <div class="categories-card__content">
+                                <h4 class="categories-card__title">Canciones para levantar el ánimo</h4>
+                                <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                    Escuchar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="categories-card d-flex align-items-center gap-4">
+                            <img src="./img/categoria-2.jpg" alt="" class="categories-card__img">
+                            <div class="categories-card__content">
+                                <h4 class="categories-card__title">Noches de Rock clásico</h4>
+                                <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                    Escuchar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="categories-card d-flex align-items-center gap-4">
+                            <img src="./img/categoria-3.jpg" alt="" class="categories-card__img">
+                            <div class="categories-card__content">
+                                <h4 class="categories-card__title">Electro Beats para tus entrenamientos</h4>
+                                <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                    Escuchar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="categories-card d-flex align-items-center gap-4">
+                            <img src="./img/categoria-4.jpg" alt="" class="categories-card__img">
+                            <div class="categories-card__content">
+                                <h4 class="categories-card__title">Flow de Hip-hop urbano</h4>
+                                <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                    Escuchar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="categories-card d-flex align-items-center gap-4">
+                            <img src="./img/categoria-5.jpg" alt="" class="categories-card__img">
+                            <div class="categories-card__content">
+                                <h4 class="categories-card__title">Jazz suave para relajarse</h4>
+                                <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                    Escuchar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="categories-card d-flex align-items-center gap-4">
+                            <img src="./img/categoria-6.jpg" alt="" class="categories-card__img">
+                            <div class="categories-card__content">
+                                <h4 class="categories-card__title">Éxitos del Pop contemporáneo</h4>
+                                <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                    Escuchar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="categories-card d-flex align-items-center gap-4">
+                            <img src="./img/categoria-7.jpg" alt="" class="categories-card__img">
+                            <div class="categories-card__content">
+                                <h4 class="categories-card__title">Ritmos latinos calientes</h4>
+                                <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                    Escuchar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="categories-card d-flex align-items-center gap-4">
+                            <img src="./img/categoria-8.jpg" alt="" class="categories-card__img">
+                            <div class="categories-card__content">
+                                <h4 class="categories-card__title">Música clásica para inspirarte</h4>
+                                <a href="" onclick="return false" class="btn-see categories-card__btn d-flex align-items-center gap-3">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                    Escuchar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="register">
+                <div class="container register-container">
+                    <div class="register-content d-flex flex-column gap-4">
+                        <h2 class="section-title">¿Estás listo para descubrir nueva música y expandir tus horizontes sonoros?</h2>
+                        <p class="register-text">Suscríbete mensualmente y desbloquea un mundo musical sin límites.</p>
+                        <a href="" onclick="return false" class="btn btn-card">
+                            Regístrate
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <div class="register-img">
+                        <img src="./img/subscribe-singer.png" alt="">
+                    </div>
+                </div>
+            </section>
+    
+            <section class="plan" id="price">
+                <div class="container plan-container d-flex flex-column gap-5 text-center">
+                    <h2 class="section-title">Elige el plan perfecto para disfrutar de la <span>mejor música</span></h2>
+                    <div class="plan-btn__container">
+                        <a href="" onclick="return false" class=" btn plan-btn">Mensual</a>
+                        <a href="" onclick="return false" class="btn plan-btn">Anual</a>
+                    </div>
+                    <div class="plan-modal__container d-flex align-items-stretch flex-wrap">
+                        <div class="plan-modal d-flex flex-column justify-content-between  gap-3">
+                            <h3 class="plan-modal__title">Básico</h3>
+                            <p class="plan-modal__price">15.99€</p>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Acceso ilimitado a nuestra amplia biblioteca musical.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Escucha sin interrupciones con anuncios limitados.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Explora y descubre nuevas playlists y artistas destacados.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Creación de listas de reproducción personalizadas.
+                                </li>
+                            </ul>
+                            <a href="" onclick="return false" class="btn btn-black">
+                                Prueba gratis
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+        
+                        <div class="plan-modal d-flex flex-column gap-3 plan-modal__black">
+                            <h3 class="plan-modal__title">Premium</h3>
+                            <p class="plan-modal__price">25.99€</p>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Todas las características del Plan Básico incluidas.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Reproducción en alta calidad de audio sin pérdida.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Sin anuncios en ningún momento para una experiencia ininterrumpida.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    Descarga tus canciones favoritas para disfrutarlas sin conexión.
+                                </li>
+                            </ul>
+                            <a href="" onclick="return false" class="btn btn-black">
+                                Prueba gratis
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="newsletter ">
+                <div class="container newsletter-container">
+                    <div class="newsletter-users">
+                        <div class="newsletter-users__one"></div>
+                        <div class="newsletter-users__two"></div>
+                        <div class="newsletter-users__three"></div>
+                    </div>
+    
+                    <div class="newsletter-content">
+                        <h2 class="section-title mb-4">¡Regístrate para recibir novedades y canciones más populares cada semana!</h2>
+                        <form action="" class="newsletter-form">
+                            <input type="email" placeholder="Inserta tu correo electrónico" name="email">
+                            <button type="submit">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+    
+                    <img src="./img/register-user.png" class="newsletter-img">
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <nav>
+                <div class="container">
+                    <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+                        <a href="" onclick="return false" class="navbar-brand">
+                            <img class="img-fluid" src="./img/logo.svg" alt="logo of undersound" width="25px">
+                            <p>UnderSound</p>
+                        </a>
+                        <div class="nav-container d-flex align-items-start justify-content-center">
+                            <div class="nav d-flex flex-column">
+                                <h3 class="nav-title">Enlaces Rápidos</h3>
+                                <ul class="navbar-nav d-flex flex-column">
+                                    <li class="nav-item"><a href="#info" class="nav-link">Información</a></li>
+                                    <li class="nav-item"><a href="#features" class="nav-link">Características</a></li>
+                                    <li class="nav-item"><a href="#categories" class="nav-link">Categorías</a></li>
+                                    <li class="nav-item"><a href="#price" class="nav-link">Precios</a></li>
+                                </ul>
+                            </div>
+                            <div class="nav d-flex flex-column">
+                                <h3 class="nav-title">Otros Enlaces</h3>
+                                <ul class="navbar-nav d-flex flex-column">
+                                    <li class="nav-item"><a href="" onclick="return false" class="nav-link">Privacidad</a></li>
+                                    <li class="nav-item"><a href="" onclick="return false" class="nav-link">Términos y Condiciones</a></li>
+                                    <li class="nav-item"><a href="" onclick="return false" class="nav-link">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="socials d-flex align-items-center justify-content-end gap-5">
+                            <a href="" onclick="return false" target="_blank" class="socials-link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" onclick="return false" target="_blank" class="socials-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="" onclick="return false" target="_blank" class="socials-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            
+                        </div>
+                    </div>                
+                </div>
+            </nav>
+        </footer>
+    
+        <a href="#" class="up-btn">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a>
+    </div>
 
-    <a href="#" class="up-btn">
-        <i class="fa-solid fa-chevron-up"></i>
-    </a>
 
     <script src="script.js"></script>
 

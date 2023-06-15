@@ -34,12 +34,20 @@ html {
     font-family: 'Roboto';
     font-size: 62.5%;
     box-sizing: inherit;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: inherit;
     font-size: 1.6rem;
     overflow-x: hidden;
+    position: relative;
+}
+.wrapper {
+    overflow-x: hidden!important;
+    position: relative;
+    width: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -125,6 +133,7 @@ header nav {
 }
 .navbar .container {
     position: relative;
+    width: 100vw;
 }
 .navbar-brand {
     font-family: var(--playfair); 
@@ -160,7 +169,6 @@ header nav {
 .hero-subtitle {
     color: var(--purple);
     letter-spacing: .2rem;
-    /* font-weight: 600; */
 }
 .hero-title {
     font-size: 5rem;
@@ -977,10 +985,10 @@ footer .socials-link i {
     }
     .navbar {
         position: fixed;
-        width: 100%;
+        width: 100vw;
         background-color: var(--bg-beige);
-        top: 0;
-        left: 0;
+        /* top: 0;
+        left: 0; */
         z-index: 10;
         padding: 1rem;
         height: 8.4rem;
