@@ -482,6 +482,7 @@ header nav {
 }
 .categories-options {
     flex: 70%;
+    gap: 4rem;
 }
 .btn-option {
     border-color: black;
@@ -492,7 +493,7 @@ header nav {
 .categories-card__container {
     margin-top: 6rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 3rem;
 }
 .categories-card {
@@ -502,8 +503,14 @@ header nav {
     border-radius: 10px;
 }
 .categories-card__img {
-    width: 10rem;
+    width: 40%;
     border-radius: 5px;
+}
+.categories-card__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
 
 /* REGISTER SECTION */
@@ -818,6 +825,12 @@ footer .socials-link i {
     .share-card {
         min-width: 20rem;
     }
+    .categories-content {
+        flex: 50%;
+    }
+    .categories-options {
+        flex: 50%;
+    }
 }
 
 
@@ -877,10 +890,23 @@ footer .socials-link i {
     .hero-content {
         width: 90%;
     }
+    .categories-hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .categories-options {
+        justify-content: center!important;
+        gap: 2rem;
+    }
 }
 @media screen and (width <= 768px) {
     .sidebar {
         display: flex;
+    }
+    .categories-card__content {
+        justify-content: space-between;
+        padding: 1rem 0;
     }
 }
 @media screen and (width <= 630px) {
