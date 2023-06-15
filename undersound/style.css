@@ -188,6 +188,7 @@ header nav {
 .navbar-hero-img__container {
     top: 0;
     right: 1rem;
+    transition: right .5s ease-in;
 }
 .navbar-hero-bg {
     height: 100%;
@@ -754,8 +755,24 @@ footer .socials-link i {
     position: fixed;
     bottom: 3rem;
     right: 3rem;
-
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid #b1b1b1;
+    border-radius: 50%;
+    text-align: center;
 }
+.up-btn i {
+    font-size: 2.5rem;
+    line-height: 5rem;
+    color: #b1b1b1;
+}
+.up-btn:hover {
+    border-color: black;
+}
+.up-btn:hover i {
+    color: black;
+}
+
 
 @media screen and (width <= 1340px) {
     .info-card__img {
@@ -973,6 +990,9 @@ footer .socials-link i {
     .header-shadow {
         box-shadow: 0 1px 5px rgba(0,0,0,.2);
     }
+    .navbar-hero-img__container {
+       right: -50rem;
+    }
 }
 @media screen and (width <= 750px) {
     .newsletter-users  * {
@@ -1017,9 +1037,9 @@ footer .socials-link i {
         transform: rotate(-80deg);
         right: -18rem;
     }
-    .navbar-hero-img__container {
+    /* .navbar-hero-img__container {
         right: -22rem;
-    }
+    } */
     .hero-content {
         width: 100%;
     }
