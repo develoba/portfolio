@@ -107,9 +107,10 @@ Lastly for the stack used, only a small script was created from scratch, which w
 
 As mentioned, this project is responsive in any size, having some fading transitions when resizing the screen. The preview of desktop, tablet and mobile are shown:
 
-<p align="center">
-    <img src="./img/tabletPreview.png" width="60%"> 
-    <img src="./img/mobilePreview.png" width="30%">
+<p align="top">
+    <img align="top" src="./img/desktopPreview.png" width="50%"> 
+    <img align="top" src="./img/tabletPreview.png" width="20%"> 
+    <img align="top" src="./img/mobilePreview.png" width="10%">
 </p>
 
 
