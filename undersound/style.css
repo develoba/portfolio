@@ -39,6 +39,7 @@ html {
 body {
     font-family: inherit;
     font-size: 1.6rem;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -738,7 +739,7 @@ footer .navbar-brand img {
     width: 2rem;
 }
 .nav-container {
-    gap: 10rem;
+    gap: 5rem;
     flex: 2;
 }
 footer .navbar-nav {
@@ -844,6 +845,10 @@ footer .socials-link i {
     .newsletter-content .section-title {
         font-size: 3rem;
     }
+    footer nav .container > * {
+        justify-content: center!important
+    }
+    
 }
 
 
@@ -962,6 +967,10 @@ footer .socials-link i {
     }
     .newsletter-form {
         margin: 0 auto;
+    }
+    footer nav .container > * {
+        flex-direction: column;
+        align-items: center!important;
     }
 }
 @media screen and (width <= 630px) {
