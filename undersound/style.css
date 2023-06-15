@@ -645,7 +645,7 @@ header nav {
 /* NEWSLETTER SECTION */
 .newsletter {
     background-color: var(--bg-beige);
-    padding: 8rem 0;
+    padding: 8rem 1rem;
 }
 .newsletter-container {
     background-color: var(--green);
@@ -660,6 +660,7 @@ header nav {
     border-radius: 50%;
     border: 2px solid white;
     position: absolute;
+    transition: left .5s ease-in;
 }
 .newsletter-users__one {
     width: 7.5rem;
@@ -722,6 +723,7 @@ header nav {
     position: absolute;
     bottom: 0;
     right: 0;
+    transition: right .5s ease-in;
 }
 
 /* FOOTER */
@@ -839,6 +841,9 @@ footer .socials-link i {
     .register-img::before {
         right: -18rem;
     }
+    .newsletter-content .section-title {
+        font-size: 3rem;
+    }
 }
 
 
@@ -907,6 +912,18 @@ footer .socials-link i {
         justify-content: center!important;
         gap: 2rem;
     }
+    .newsletter-img {
+        right: -20rem;
+    }
+    .newsletter-content {
+        width: 80%;
+        text-align: right;
+        margin: 0 2rem 0 auto;
+    }
+    .newsletter-form {
+        width: 90%;
+        margin: 0 0 0 auto;
+    }
 }
 @media screen and (width <= 768px) {
     .sidebar {
@@ -932,6 +949,19 @@ footer .socials-link i {
         width: 85%;
         margin: 0 auto;
         padding: 1.2rem 0;
+    }
+}
+@media screen and (width <= 750px) {
+    .newsletter-users  * {
+        left: -30rem
+    }
+    .newsletter-content {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .newsletter-form {
+        margin: 0 auto;
     }
 }
 @media screen and (width <= 630px) {
@@ -1003,6 +1033,9 @@ footer .socials-link i {
     .features .btn {
         width: 100%;
         padding: 1.3rem 0;
+    }
+    .newsletter-form input::placeholder {
+        font-size: 1.2rem;
     }
 }
 @media screen and (width <= 320px) {
