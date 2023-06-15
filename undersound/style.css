@@ -948,9 +948,7 @@ footer .socials-link i {
     }
 }
 @media screen and (width <= 768px) {
-    .sidebar {
-        display: flex;
-    }
+    
     .categories-card__content {
         justify-content: space-between;
         padding: 1rem 0;
@@ -992,6 +990,11 @@ footer .socials-link i {
     }
     .navbar-hero-img__container {
        right: -50rem;
+    }
+}
+@media screen and (width <= 767px) {
+    .sidebar {
+        display: flex;
     }
 }
 @media screen and (width <= 750px) {
