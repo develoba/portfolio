@@ -15,7 +15,7 @@ const Billing = () => (
       <div className={`layout.sectionInfo`}>
         <h2 className={styles.heading2}>Controla fácilmente <br className='sm:block hidden' /> tu facturación.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Controla fácilmente tus facturas y gastos con GlobalBank. Gestiona tus finanzas de manera intuitiva y eficiente.
+          Controla fácilmente tus facturas y gastos con HooBank. Gestiona tus finanzas de manera intuitiva y eficiente.
         </p>
 
         <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
